@@ -1,0 +1,105 @@
+.complited-projects{
+    &__content{
+        h2{
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            font-size: 1.875rem;
+            font-weight: 300;
+            text-align: center;
+            margin-top: 97px;
+            @media (max-width: $md3+px){
+                font-size: 1.313rem;
+                line-height: normal;
+            }
+        }
+    }
+    &__small-logo{
+        margin: 43px auto 50px auto;
+        @media (max-width: $md3+px){
+            margin: 25px auto 25px auto;
+        }
+    }
+    &__grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 121px;
+        @media (max-width: $md2+px){
+            grid-gap: 50px;
+        }
+        a{
+            color: black;
+            display: none;
+        }
+        @media (max-width: $md3+px){
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 50px;
+        }
+        img{
+            filter: drop-shadow(0px 20px 70px rgba(0, 0, 0, 0.11));
+        }
+    }
+    &__button-wrapper{
+        text-align: center;
+        margin-top: 121px;
+        @media (max-width: $md2+px){
+            margin-top: 80px;
+        }
+        @media (max-width: $md3+px){
+            margin-top: 50px;
+        }
+    }
+    &__popup-item{
+        position: relative;
+        &:hover{
+            .complited-projects__popup-text{
+                opacity: 1;
+            }    
+        }
+    }
+    &__button{
+        margin-top: 0 !important;
+    }
+    &__popup-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 43px;
+        background: rgba(255, 255, 255, 0.7);
+        border: 1px solid #FFFFFF;
+        backdrop-filter: blur(20px);
+        opacity: 0;
+        transition: .6s ease all;
+        @media (max-width: $md4+px){
+            padding: 33px;
+        }
+        h2{
+            font-size: 1.313rem;
+            font-weight: 700;
+            @media (max-width: $md3+px){
+                font-size: 1.188rem;
+            }
+        }
+        p{
+            font-size: 1.313rem;
+            margin-top: 18px;
+            font-weight: 300;
+            line-height: 25px;
+            @media (max-width: $md3+px){
+                font-size: 1.188rem;
+                margin-top: 15px;
+            }
+        }
+        h3{
+            font-size: 1rem;
+            font-weight: 700;
+            margin-top: 19px;
+            white-space: nowrap;
+            @media (max-width: $md3+px){
+                font-size: 0.875rem;
+                margin-top: 15px;
+            }     
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.radio {
+	&-input {
+	  visibility: hidden;
+	}
+  
+	&-label {
+	  position: relative;
+	  cursor: pointer;
+	  transition: .4s ease all;
+	  &:after {
+		content: "";
+		display: block;
+		width: 18px;
+		height: 18px;
+		position: absolute;
+		left: -30px;
+		top: 17px;
+		border-radius: 50%;
+		border: 2px solid rgba(0, 109, 102, 0.2);
+		transition: ease-in 0.4s;
+	  }
+	}
+	&-input:checked + &-label:after {
+	  border-color: #006D66;
+	}
+}
+
+.radio-active{
+	p{
+		font-weight: 700;
+		transition: .4s ease all;
+	}
+}
+
+.radio-input{
+	position: absolute;
+}
+
+.radio-budget{
+	&:after{
+		top: 5px;
+	}
+}

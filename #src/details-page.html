@@ -1,0 +1,118 @@
+@@include('components/general/_head.html',{
+    "title":"Details - Page"
+    })
+    <div class="wrapper">
+        <main class="page">
+            <section class="before-after">
+                <div class="container">
+                    @@include('components/general/_header.html',{})
+                </div>
+                <div class="container">
+                    <div class="before-after__content">
+                        <div class="before-after__left">
+                            <div class="before-after__left-text">
+                                <p>Title</p>
+                                <h3>Penthouse X</h3>
+                            </div>
+                            <div class="before-after__left-text">
+                                <p>Type</p>
+                                <h3>Luxury apartment</h3>
+                            </div>
+                            <div class="before-after__left-text">
+                                <p>Client</p>
+                                <h3>A Retired Couple</h3>
+                            </div>
+                            <div class="before-after__left-text">
+                                <p>Location</p>
+                                <h3>Givat Shmuel, Israel</h3>
+                            </div>
+                            <div class="before-after__left-text">
+                                <p>Area</p>
+                                <h3>175 sqm</h3>
+                            </div>
+                            <div class="before-after__left-text">
+                                <p>Status</p>
+                                <h3>Completed</h3>
+                            </div>
+                            <div class="before-after__left-text">
+                                <p>Date</p>
+                                <h3>2019</h3>
+                            </div>
+                        </div>
+                        <div class="before-after__right">
+                            <div class="cocoen">
+                                <img src="img/before.png" alt="" />
+                                <img src="img/after.png" alt="" />
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery">
+                <div class="container">
+                    <div class="gallery__content">
+                        <h2>project <b class="bold">gallery</b></h2>
+                        <div class="projects__small-logo complited-projects__small-logo">
+                            <img src="img/small-logo.svg" alt="">
+                        </div>
+                        <div class="gallery__grid active-gallery active-gallery-mobile">
+                            <div class="gallery__grid-item">
+                                <a data-fslightbox="gallery" href="img/gallery1.png">
+                                    <img src="img/gallery1.png" alt="" class="gallery-item">
+                                </a>
+                            </div>
+                            <div class="gallery__grid-item">
+                                <a data-fslightbox="gallery" href="img/gallery2.png">
+                                    <img src="img/gallery2.png" alt="" class="gallery-item">
+                                </a>
+                            </div>
+                            <div class="gallery__grid-item">
+                                <a data-fslightbox="gallery" href="img/gallery3.png">
+                                    <img src="img/gallery3.png" alt="" class="gallery-item">
+                                </a>
+                            </div>
+                            <div class="gallery__grid-item">
+                                <a data-fslightbox="gallery" href="img/gallery4.png">
+                                    <img src="img/gallery4.png" alt="" class="gallery-item">
+                                </a>
+                            </div>
+                            <div class="gallery__grid-item">
+                                <a data-fslightbox="gallery" href="img/gallery5.png">
+                                    <img src="img/gallery5.png" alt="" class="gallery-item">
+                                </a>
+                            </div>
+                            <div class="gallery__grid-item">
+                                <a data-fslightbox="gallery" href="img/gallery6.png">
+                                    <img src="img/gallery6.png" alt="" class="gallery-item">
+                                </a>
+                            </div>
+                            <div class="gallery__grid-item">
+                                <a data-fslightbox="gallery" href="img/gallery1.png">
+                                    <img src="img/gallery1.png" alt="" class="gallery-item">
+                                </a>
+                            </div>
+                            <div class="gallery__grid-item">
+                                <a data-fslightbox="gallery" href="img/gallery2.png">
+                                    <img src="img/gallery2.png" alt="" class="gallery-item">
+                                </a>
+                            </div>
+                            <div class="gallery__grid-item">
+                                <a data-fslightbox="gallery" href="img/gallery3.png">
+                                    <img src="img/gallery3.png" alt="" class="gallery-item">
+                                </a>
+                            </div>    
+                        </div>
+                        <div class="complited-projects__button-wrapper">
+                            <a class="button hero-section__button complited-projects__button more-btn" data-w-id="4739a9e0-2795-5503-19b0-ceeeeda5e3be"
+                                href="#">
+                                <div class="button-text-2">More</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        @@include('components/general/_footer.html',{})
+        <script>
+            Cocoen.create(document.querySelector('.cocoen'));
+        </script>

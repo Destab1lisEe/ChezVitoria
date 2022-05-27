@@ -1,0 +1,32 @@
+.terms{
+    h2{
+        margin-top: 100px;
+        font-size: 1.875rem;
+        text-align: center;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        font-weight: 300;
+        @media (max-width: $md3+px){
+            font-size: 1.313rem;
+        }
+    }
+    &__text{
+        margin-top: 50px;
+        @media (max-width: $md3+px){
+            margin-top: 25px;
+        }
+        p{
+            max-width: 1385px;
+            font-size: 1.063rem;
+            line-height: 30px;
+            margin-bottom: 25px;
+            @media (max-width: $md3+px){
+                font-size: 0.875rem;
+                line-height: 27px;
+            }
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+}

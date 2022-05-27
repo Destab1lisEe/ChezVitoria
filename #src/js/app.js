@@ -1,0 +1,5 @@
+@@include('files/burger-menu.js', {})
+@@include('files/anchor-scroll.js', {})
+@@include('libs/swiper.min.js', {})
+@@include('libs/fslightbox.js', {})
+@@include('files/script.js', {})
