@@ -1,8 +1,7 @@
 # ChezVitoria
 
-Actual version on wordpress <br>
+Actual version on wordpress https://chezvitoria.com/ <br>
 Pages: <br>
-https://chezvitoria.com/ <br>
 https://chezvitoria.com/listing-page/ <br>
 https://chezvitoria.com/details-page/ <br>
 https://chezvitoria.com/services-page/ <br>
